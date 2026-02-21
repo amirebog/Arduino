@@ -1,0 +1,36 @@
+---
+title: Arduino Basics
+description: Arduino IDE learning guide
+---
+
+## About Arduino
+
+Arduino is an open-source electronics platform used for building embedded systems and hardware projects.
+
+You can write code, upload programs, and control electronic components using Arduino IDE.
+
+---
+
+## Installation
+
+Download Arduino IDE from official website:
+
+https://www.arduino.cc/en/software
+
+Install the software and open it after installation.
+
+---
+
+## First Test Code
+
+Try this simple example to verify your setup.
+
+```cpp
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.println("Arduino Project Started");
+  delay(1000);
+}
